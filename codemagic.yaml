@@ -6,7 +6,6 @@ workflows:
         labels:
           - ${PACKAGE_NAME}
         environment:
-          flutter: fvm
           android_signing:
             - testKeystore
           groups:
