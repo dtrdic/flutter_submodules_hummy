@@ -11,6 +11,7 @@ workflows:
           groups:
             - firebase_credentials
             - google_play_credentials2
+            - module_credentials
           vars:
             PACKAGE_NAME: "io.codemagic.dtrdic10"
             GOOGLE_PLAY_TRACK: internal
