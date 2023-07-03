@@ -18,6 +18,8 @@ publish_to: 'none' # Remove this line if you wish to publish to pub.dev
 # of the product and file versions while build-number is used as the build suffix.
 version: 1.0.0+1
 
+
+
 environment:
   sdk: '>=2.19.6 <3.0.0'
 
@@ -30,16 +32,15 @@ environment:
 dependencies:
   flutter:
     sdk: flutter
-
-
+  repository: 
+    git:
+      url: https://x-access-token:$GITHUB_TOKEN@github.com:dtrdic/flutterTestApp_submodule.git
+      ref: main
   # The following adds the Cupertino Icons font to your application.
   # Use with the CupertinoIcons class for iOS style icons.
   cupertino_icons: ^1.0.2
   flutter_driver:
     sdk: flutter
-  repository: 
-    git:
-      url: git@github.com:dtrdic/flutterTestApp--submodule.git
 
 dev_dependencies:
   flutter_test:
