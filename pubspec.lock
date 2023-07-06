@@ -100,12 +100,17 @@ packages:
     source: hosted
     version: "2.0.2"
   flutter_test:
-    dependency: "direct dev"
+    dependency: transitive
     description: flutter
     source: sdk
     version: "0.0.0"
   fuchsia_remote_debug_protocol:
     dependency: transitive
+    description: flutter
+    source: sdk
+    version: "0.0.0"
+  integration_test:
+    dependency: "direct dev"
     description: flutter
     source: sdk
     version: "0.0.0"
